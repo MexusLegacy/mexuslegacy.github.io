@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mexus Legacy - Professional Painting, Drywall, Pressure Washing, and Junk Removal services in 2024. Quality and reliability at competitive prices.">
+    <title>Mexus Legacy - Expert Painting, Drywall, Pressure Washing, and Junk Removal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2d6a4f;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 40px;
+        }
+
+        h2 {
+            color: #2d6a4f;
+            margin-bottom: 20px;
+        }
+
+        .services, .portfolio, .contact {
+            margin-bottom: 50px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-item h3 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        .service-item p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .portfolio img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .form-container input, .form-container select, .form-container textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 16px;
+        }
+
+        .form-container button {
+            background-color: #2d6a4f;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #23723a;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mexus Legacy</h1>
+        <p>Professional Painting, Drywall, Pressure Washing, and Junk Removal Services - Serving You Since 2024</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Painting</h3>
+                <p>Our expert painting team is dedicated to providing high-quality interior and exterior painting services. We guarantee a flawless finish and long-lasting results for any residential or commercial space.</p>
+            </div>
+            <div class="service-item">
+                <h3>Drywall</h3>
+                <p>Whether it's drywall installation or repair, we ensure that every project is done with precision and care. We take pride in delivering smooth, seamless surfaces for your walls and ceilings.</p>
+            </div>
+            <div class="service-item">
+                <h3>Pressure Washing</h3>
+                <p>Bring back the beauty of your exterior spaces with our professional pressure washing services. We remove dirt, grime, mold, and stains from various surfaces, including driveways, patios, and walls.</p>
+            </div>
+            <div class="service-item">
+                <h3>Junk Removal</h3>
+                <p>Efficient junk removal services for homes and businesses. We take care of everything, ensuring that your space is clear and clutter-free. Fast and reliable junk hauling at your convenience.</p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Our Work</h2>
+            <div class="portfolio-item">
+                <img src="portfolio1.jpg" alt="Painting Project 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolio2.jpg" alt="Drywall Installation">
+            </div>
+            <div class="portfolio-item">
+                <img src="portfolio3.jpg" alt="Pressure Washing Job">
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Schedule an Appointment</h2>
+            <div class="form-container">
+                <form action="#" method="POST">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="service">Service Requested</label>
+                    <select id="service" name="service" required>
+                        <option value="painting">Painting</option>
+                        <option value="drywall">Drywall</option>
+                        <option value="pressure_washing">Pressure Washing</option>
+                        <option value="junk_removal">Junk Removal</option>
+                    </select>
+
+                    <label for="message">Additional Details</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit Request</button>
+                </form>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mexus Legacy | All rights reserved. | Website designed by [Your Name]</p>
+    </footer>
+
+</body>
+</html>
